@@ -1,5 +1,7 @@
 # Frontend Data
 
+https://deefdemeef.github.io/frontend-data/
+
 ### Assigment
 
 Maak een datavisualisatie (met behulp van de d3-bibliotheek) op basis van gegeven gegevens waarbij gegevens kunnen worden verkend door interactie met behulp van enter(), update() en exit().
