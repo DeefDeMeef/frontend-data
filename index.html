@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D3 Datavisualisatie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: "Poppins";
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Height in CM of all Star Wars characters (made with <a href="https://swapi.dev/documentation" target="_blank">SWAPI API</a>)</h1>
+  </header>
+  <label><input type="checkbox" name="toggle" value="1" id="change-data" />Show characters I can defeat (characters below 187cm)</label>
+
+  <div id="chart"></div>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
